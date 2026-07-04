@@ -1,0 +1,20 @@
+openviking/server/routers/skills.py
+  s_7b8c4ba51e3d67::t_d552b6c0547fd8 619-642,645
+  s_7b8c4ba51e3d67::t_024aec3398babf 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5afd37ba44977f3dd87abbde0ff77b4164d09f46",
+  "prompts": {},
+  "sessions": {
+    "s_7b8c4ba51e3d67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "18735183-78a1-498c-9044-dd712ad04233",
+        "model": "glm-5.2"
+      },
+      "human_author": "xiaochen-zhou <598457447@qq.com>"
+    }
+  }
+}
