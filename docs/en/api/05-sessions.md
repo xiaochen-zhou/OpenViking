@@ -303,11 +303,14 @@ ov session get a1b2c3d4
       "preferences": 2,
       "entities": 3,
       "events": 1,
+      "identity": 1,
+      "soul": 0,
       "cases": 2,
-      "patterns": 1,
+      "trajectories": 1,
+      "experiences": 1,
       "tools": 0,
       "skills": 0,
-      "total": 10
+      "total": 12
     },
     "last_commit_at": "2026-03-23T11:00:00+08:00",
     "llm_token_usage": {

@@ -93,7 +93,8 @@ viking://user/skills/                         # 当前用户的技能
 viking://user/skills/search-web               # 某个技能
 viking://user/memories/                       # 当前用户的记忆
 viking://user/memories/cases/                 # 学习的案例
-viking://user/memories/patterns/              # 学习的模式
+viking://user/memories/experiences/           # 学习的经验
+viking://user/memories/trajectories/          # 执行轨迹
 viking://user/{user_id}/peers/{peer_id}/memories/
 viking://user/{user_id}/peers/{peer_id}/resources/
 ```

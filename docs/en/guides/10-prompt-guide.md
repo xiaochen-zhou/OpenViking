@@ -218,11 +218,11 @@ These YAML files define the structure of different memory types. They are not si
   - Purpose: defines the agent's name, persona, vibe, avatar, and self-introduction fields
   - Key fields: `name`, `creature`, `vibe`, `emoji`, `avatar`
 
-- `patterns`
-  - Effective stage: pattern-memory persistence and update stage
-  - Affects: long-term accumulation of reusable workflows and methods
-  - Purpose: defines pattern memory for "under what circumstances to follow what process"
-  - Key fields: `pattern_name`, `pattern_type`, `content`
+- `experiences`
+  - Effective stage: experience-memory persistence and update stage
+  - Affects: long-term accumulation of generalizable execution insights
+  - Purpose: defines reusable experience distilled from execution
+  - Key fields: `experience_name`, `content`, `supersedes`
 
 - `preferences`
   - Effective stage: preference-memory persistence and update stage

@@ -218,11 +218,11 @@ peer_enabled: true
   - 作用：定义 agent 的名字、形象、风格、自我介绍等身份字段
   - 关键字段：`name`、`creature`、`vibe`、`emoji`、`avatar`
 
-- `patterns`
-  - 生效环节：模式型记忆落盘与更新阶段
-  - 影响能力：可复用流程和方法的长期积累
-  - 作用：定义“在什么情况下按什么流程处理”的模式记忆
-  - 关键字段：`pattern_name`、`pattern_type`、`content`
+- `experiences`
+  - 生效环节：经验型记忆落盘与更新阶段
+  - 影响能力：可泛化执行洞察的长期积累
+  - 作用：定义从执行中提炼的可复用经验
+  - 关键字段：`experience_name`、`content`、`supersedes`
 
 - `preferences`
   - 生效环节：偏好型记忆落盘与更新阶段

@@ -143,7 +143,7 @@ commit() 分两阶段执行：
 
 ## 记忆提取
 
-### 8 种分类
+### 11 种分类
 
 | 分类 | 归属 | 说明 | 可合并 |
 |------|------|------|--------|
@@ -151,8 +151,11 @@ commit() 分两阶段执行：
 | **preferences** | user | 用户偏好 | ✅ |
 | **entities** | user | 实体（人/项目） | ✅ |
 | **events** | user | 事件/决策 | ❌ |
+| **identity** | user | Agent 身份（名字、形象、自我介绍） | ✅ |
+| **soul** | user | Agent 灵魂（核心价值观、边界、风格） | ✅ |
 | **cases** | agent | 问题+解决方案 | ❌ |
-| **patterns** | agent | 可复用流程 | ✅ |
+| **trajectories** | agent | 执行轨迹（任务的可复用操作契约） | ❌ |
+| **experiences** | agent | 经验（可泛化的执行洞察） | ✅ |
 | **tools** | agent | 工具使用经验与最佳实践 | ✅ |
 | **skills** | agent | 技能执行经验与工作流策略 | ✅ |
 
@@ -255,7 +258,8 @@ viking://user/memories/
 
 viking://user/memories/
 ├── cases/
-├── patterns/
+├── experiences/
+├── trajectories/
 ├── tools/
 └── skills/
 ```

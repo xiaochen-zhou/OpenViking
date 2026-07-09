@@ -94,7 +94,7 @@ The retrieval process uses directory recursive strategy, with complete traces of
 
 OpenViking has built-in memory self-iteration loops. At the end of each session, developers can trigger memory extraction, and the system asynchronously analyzes task execution results and user feedback, automatically updating User and Agent memory directories.
 
-**6 Memory Categories**:
+**11 Memory Categories**:
 
 | Category | Owner | Description |
 |----------|-------|-------------|
@@ -102,8 +102,13 @@ OpenViking has built-in memory self-iteration loops. At the end of each session,
 | **preferences** | user | User preferences by topic |
 | **entities** | user | Entity memories (people, projects) |
 | **events** | user | Event records (decisions, milestones) |
+| **identity** | user | Agent identity (name, creature, self introduction) |
+| **soul** | user | Agent soul (core truths, boundaries, vibe) |
 | **cases** | agent | Learned cases |
-| **patterns** | agent | Learned patterns |
+| **trajectories** | agent | Execution trajectory (reusable operation contract) |
+| **experiences** | agent | Generalizable, reusable insight distilled from execution |
+| **tools** | agent | Tool usage knowledge and best practices |
+| **skills** | agent | Skill execution knowledge and workflow strategies |
 
 Enabling Agents to become "smarter with use" through world interaction, achieving self-evolution.
 

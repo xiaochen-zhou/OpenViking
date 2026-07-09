@@ -95,7 +95,8 @@ viking://user/skills/                         # Current user's skills
 viking://user/skills/search-web               # Specific skill
 viking://user/memories/                       # Current user's memories
 viking://user/memories/cases/                 # Learned cases
-viking://user/memories/patterns/              # Learned patterns
+viking://user/memories/experiences/           # Learned experiences
+viking://user/memories/trajectories/          # Execution trajectories
 viking://user/{user_id}/peers/{peer_id}/memories/
 viking://user/{user_id}/peers/{peer_id}/resources/
 ```

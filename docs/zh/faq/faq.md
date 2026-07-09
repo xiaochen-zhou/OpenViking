@@ -224,7 +224,7 @@ await session.commit()
 
 ### OpenViking 支持哪些记忆类型？
 
-OpenViking 内置 6 种记忆分类，在会话提交时自动提取：
+OpenViking 内置 11 种记忆分类，在会话提交时自动提取：
 
 | 分类 | 归属 | 说明 |
 |------|------|------|
@@ -232,8 +232,13 @@ OpenViking 内置 6 种记忆分类，在会话提交时自动提取：
 | **preferences** | user | 用户偏好（代码风格、工具选择等） |
 | **entities** | user | 实体记忆（人物、项目、组织等） |
 | **events** | user | 事件记录（决策、里程碑等） |
+| **identity** | user | Agent 身份（名字、形象、自我介绍） |
+| **soul** | user | Agent 灵魂（核心价值观、边界、风格） |
 | **cases** | agent | Agent 学习的案例 |
-| **patterns** | agent | Agent 学习的模式 |
+| **trajectories** | agent | Agent 执行轨迹（可复用操作契约） |
+| **experiences** | agent | Agent 经验（可泛化的执行洞察） |
+| **tools** | agent | Agent 工具使用经验与最佳实践 |
+| **skills** | agent | Agent 技能执行经验与工作流策略 |
 
 ### 如何使用类 Unix 的文件系统 API？
 

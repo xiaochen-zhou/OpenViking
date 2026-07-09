@@ -143,7 +143,7 @@ Unfinished tasks
 
 ## Memory Extraction
 
-### 8 Categories
+### 11 Categories
 
 | Category | Belongs to | Description | Mergeable |
 |----------|------------|-------------|-----------|
@@ -151,8 +151,11 @@ Unfinished tasks
 | **preferences** | user | User preferences | ✅ |
 | **entities** | user | Entities (people/projects) | ✅ |
 | **events** | user | Events/decisions | ❌ |
+| **identity** | user | Agent identity (name, creature, self introduction) | ✅ |
+| **soul** | user | Agent soul (core truths, boundaries, vibe) | ✅ |
 | **cases** | agent | Problem + solution | ❌ |
-| **patterns** | agent | Reusable patterns | ✅ |
+| **trajectories** | agent | Execution trajectory (reusable operation contract for a task) | ❌ |
+| **experiences** | agent | Generalizable, reusable insight distilled from execution | ✅ |
 | **tools** | agent | Tool usage knowledge and best practices | ✅ |
 | **skills** | agent | Skill execution knowledge and workflow strategies | ✅ |
 
@@ -255,7 +258,8 @@ viking://user/memories/
 
 viking://user/memories/
 ├── cases/
-├── patterns/
+├── experiences/
+├── trajectories/
 ├── tools/
 └── skills/
 ```

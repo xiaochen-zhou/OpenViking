@@ -48,7 +48,7 @@ viking://
 │   └── memories/           # User memories (preferences, entities, events)
 └── agent/                  # Agent context
     ├── skills/             # Callable skills
-    └── memories/           # Agent memories (cases, patterns)
+    └── memories/           # Agent memories (cases, experiences, trajectories)
 ```
 
 ## Installation & Configuration
@@ -232,7 +232,7 @@ await session.commit()
 
 ### What memory types does OpenViking support?
 
-OpenViking has 6 built-in memory categories, automatically extracted during session commit:
+OpenViking has 11 built-in memory categories, automatically extracted during session commit:
 
 | Category | Belongs To | Description |
 |----------|------------|-------------|
@@ -240,8 +240,13 @@ OpenViking has 6 built-in memory categories, automatically extracted during sess
 | **preferences** | user | User preferences (code style, tool choices, etc.) |
 | **entities** | user | Entity memories (people, projects, organizations, etc.) |
 | **events** | user | Event records (decisions, milestones, etc.) |
+| **identity** | user | Agent identity (name, creature, self introduction) |
+| **soul** | user | Agent soul (core truths, boundaries, vibe) |
 | **cases** | agent | Cases learned by Agent |
-| **patterns** | agent | Patterns learned by Agent |
+| **trajectories** | agent | Execution trajectory (reusable operation contract) |
+| **experiences** | agent | Generalizable, reusable insight distilled from execution |
+| **tools** | agent | Tool usage knowledge and best practices learned by Agent |
+| **skills** | agent | Skill execution knowledge and workflow strategies learned by Agent |
 
 ### How do I use Unix-like filesystem APIs?
 
