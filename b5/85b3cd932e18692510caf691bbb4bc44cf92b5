@@ -1,0 +1,27 @@
+tests/resource/test_resource_tools.py
+  s_dfee89d0155c1e::t_8ca216e217ee2a 327-332
+  s_dfee89d0155c1e::t_8fcd6cecbda36a 191-196,201,206,236,243-246,248,266-326,333-372
+openviking/resource/tool_loop.py
+  s_dfee89d0155c1e::t_acd3ad09228176 220
+  s_dfee89d0155c1e::t_643c534dd54bac 244
+  s_dfee89d0155c1e::t_3aad938a0866f6 20-21,30-32,40,48-53,100,115,122,125-131,143,148,154,161-162,173-174,178-182,184-187,197-200,202,206-219,221-223,228-229,240-243,245-249,254-259,261
+  s_dfee89d0155c1e::t_99550ddac85616 15,22-29,95-98,107-109,123-124,132-142,144-147,167-172,176-177,183,250-253
+  s_dfee89d0155c1e::t_9053f7295ba5d2 175
+  s_dfee89d0155c1e::t_0df337545bd5bc 205
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b585b3cd932e18692510caf691bbb4bc44cf92b5",
+  "prompts": {},
+  "sessions": {
+    "s_dfee89d0155c1e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "33ffc0e5-a20f-45a4-92da-997f964fecc6",
+        "model": "glm-5.2"
+      },
+      "human_author": "xiaochen-zhou <598457447@qq.com>"
+    }
+  }
+}
