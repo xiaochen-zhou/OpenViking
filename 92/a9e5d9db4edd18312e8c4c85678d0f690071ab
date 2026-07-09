@@ -1,0 +1,27 @@
+openviking/resource/resource_loop.py
+  s_dfee89d0155c1e::t_4fa0f4838075f8 147-148
+  s_dfee89d0155c1e::t_d5e2dfaf882b76 133
+  s_dfee89d0155c1e::t_e9fee889e85994 4,6
+openviking/resource/tools.py
+  s_dfee89d0155c1e::t_43e9124f08fd8e 40
+  s_dfee89d0155c1e::t_9b323baab04d84 153
+  s_dfee89d0155c1e::t_5ad229d0329c5a 4
+  s_dfee89d0155c1e::t_321da0f0f2de58 96
+  s_dfee89d0155c1e::t_4942352ab25547 116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "92a9e5d9db4edd18312e8c4c85678d0f690071ab",
+  "prompts": {},
+  "sessions": {
+    "s_dfee89d0155c1e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "33ffc0e5-a20f-45a4-92da-997f964fecc6",
+        "model": "glm-5.2"
+      },
+      "human_author": "xiaochen-zhou <598457447@qq.com>"
+    }
+  }
+}
