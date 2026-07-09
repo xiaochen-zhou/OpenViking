@@ -1,0 +1,26 @@
+openviking/resource/__init__.py
+  s_dfee89d0155c1e::t_4921bcd71a907a 17
+openviking/storage/queuefs/semantic_processor.py
+  s_dfee89d0155c1e::t_229fd78861c4ba 1417
+tests/resource/test_resource_tools.py
+  s_dfee89d0155c1e::t_fd08ffc9d036a4 31
+openviking/resource/tools.py
+  s_dfee89d0155c1e::t_cb2975f4d9e2a1 222
+  s_dfee89d0155c1e::t_f66a0e14074224 204,209,216,218
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e6379d26a635156579e64f35a93d4d74995ae470",
+  "prompts": {},
+  "sessions": {
+    "s_dfee89d0155c1e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "33ffc0e5-a20f-45a4-92da-997f964fecc6",
+        "model": "glm-5.2"
+      },
+      "human_author": "xiaochen-zhou <598457447@qq.com>"
+    }
+  }
+}
